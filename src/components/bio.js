@@ -38,11 +38,11 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Written by <strong>{author}</strong> who lives and works in Boston-Massachussets building useful things.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a //href={`https://www.facebook.com/${social.facebook}`
+            href='https://www.facebook.com/witanday'>
+                You should follow him on Facebook
               </a>
             </p>
           </div>
