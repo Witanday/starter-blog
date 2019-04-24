@@ -41,4 +41,4 @@ After few days of deep researches , i came up with 3 third party APIs:
 ### Conclusion 
 For conclusion-Making a project is a good way to possess knowledge. Through this way i will got to know many things during this process of building this application. And i want to thank my Team members for giving me an opportunity to work on this Payme Application, I am sure that the knowledge i will gain from this project will help me further. 
 
-I will tried my best to make this reminders components easy and understandable, but still i apologize for any anykind of bugs or error that my occur.
+I will try my best to make this reminders components easy and understandable, but still i apologize for any anykind of bugs or error that my occur.

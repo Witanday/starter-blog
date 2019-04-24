@@ -1,6 +1,6 @@
 ---
 title: Lambda Labs Week II/ Payme Application , Building reminders React /Front-End
-date: "2019-03-27T09:15:37.121Z"
+date: "2019-04-10T09:15:37.121Z"
 description: In this topic i will describe how i proceeded to build the front-end and the bacic backend.
 ---
 
@@ -65,6 +65,6 @@ Last thing to do is wrapper our function with a div and plug isCheckedEmail/isCh
 That's it!!!
 
 ### Conclusion
-Going through the code, there are a lot of stuff that could be improved and would need more than one post. for more details Please visit the full app version on [github](https://github.com/Lambda-School-Labs/labspt2-pay-me)
+Going through the code, there are a lot of stuff that could be explained and would need more than one post. for more details Please visit the full app version on [github](https://github.com/Lambda-School-Labs/labspt2-pay-me)
 
-The next post we will tackle the back-end part.
+In The next post we will tackle the back-end part.
