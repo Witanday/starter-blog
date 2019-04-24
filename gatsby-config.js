@@ -15,25 +15,6 @@ module.exports = {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
-    },{
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-highlights`,
-            options: {
-                // Additional languages, no need to add it 
-                // if you don't wish to use additional languages
-                additionalLangs: [`language-rust`],
-                // scope prefix to use, defaults to ''
-                scopePrefix: 'syntax--',
-                codeWrap: {
-                  className: 'midnight'
-                }
-              }
-          },
-        ],
-      },
     },
     {
       resolve: `gatsby-source-filesystem`,
