@@ -26,6 +26,31 @@ Our Api will Handle 3 CRUD operations on our database and will consume 2 third p
 The diagram below shows the 4 functions which will handle all requests between the client and the server.
 ![TaskManager](https://i.imgur.com/pILtjqy.png)
 
+
+### III. Reminders data process
+![Reminders_process](https://i.imgur.com/5rjsR2J.jpg)
+
+* Get Invoices function
+
+-- This function will handle all request send to api/reminders/invoice/:userId endpoint.
+![GetInvoices](https://i.imgur.com/5pQDcI3.jpg)
+The output data format will be for each invoice data, we will be joining the corresponding client and user data via foreign keys that linked all tree tables. 
+
+-- The response data will be a json object with all informations needed by the front-end reminders forms such as Invoice Number, User contact information and Client contant information.
+
+* Send Reminders function
+
+-- once the GetInvoices status succeded ,the front-end user can fill all required fields of our reminders' form and send a Post request to  api/reminders/send, below is a half shootscreen :
+![send reminders](https://i.imgur.com/M8Pf4KO.jpg)
+
+-- SendReminders will extract the Request Body , get all needed parameters and handle them to the appropriate module.
+
+-- We will be using TimerJOb npm module to Create timers that can run often. Great for our reminders, the front-end user will pick a data-time  when to start the TimerEmail and/or the TimerSms(handled by a simple setTimeout function) and and then repeat sending the same email/sms periodically.
+![send reminders](https://i.imgur.com/ZNKYYjr.jpg)
+[Learn more about TimerJOB](https://www.npmjs.com/package/timer-jobs).
+
+-- 
+
 to be continued... (by tommorow)
 
 Conclusion:
