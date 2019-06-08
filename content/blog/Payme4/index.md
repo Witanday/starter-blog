@@ -49,10 +49,21 @@ The output data format will be for each invoice data, we will be joining the cor
 ![send reminders](https://i.imgur.com/ZNKYYjr.jpg)
 [Learn more about TimerJOB](https://www.npmjs.com/package/timer-jobs).
 
--- 
+-- SetToHappenOn function will call TimerEmail and TimerSms on a Start Date set by the front-end user,
 
-to be continued... (by tommorow)
+-- TimerEmail/TimerSms will execute emailData/smsData often time (Email Freq/ Sms Freq) and this last will keep sending email/sms reminders via sendGrid APi/Nexmo Api;
+
+In my next post will knockout all requirements how to get started with sendGrid APi/Nexmo Api.
+
+We had a Team Zoom meeting and figured out how to set a feedback to the Front-end User to let him know that the reminder was successful sent to his client and we decided to save (a POST to /API/REMINDERS/SAVE) each reminder sent and send back a feedback from the our server (GET to /API/REMINDERS/VIEW).
+
 
 Conclusion:
 
-In this post i did a brief description of how to set ....
+In this post i did a brief description of how to buil a REST API that allows Users to send Email and Sms reminders to their clients.
+![received sms reminders](https://imgur.com/O3WpHs6.jpg)
+![received email reminders](https://imgur.com/rsySUjO.jpg)
+
+This was an interresting feature to build and i faced many obstacles but at the end i was filled with joy to look over my Gmail box and Phone and find an email reminders and sms reminder (text message) .
+
+Thanks for taking you  time to read this post, check the next topic !!!
